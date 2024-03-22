@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+  --dark-color:#222222;
+  --light-color: #f0f0f0;
+}
+
+body, html{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+* > *{
+    font-family: "Century Gothic", 'Lato', sans-serif;
+}
+
+.container{
+  position: absolute;
+  width: 200px;
+  padding: 0px;
+  bottom: -300px;
+  /* margin-left: 50%; */
+  /* margin-right: 20%; */
+  top: 180px;
+
+  li {
+    align-items: center;
+  }
+}
+
+.container .btn1:hover{
+    transition:  .5s ease-in;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #76dbed;
+    color: #000000;
+}
+
